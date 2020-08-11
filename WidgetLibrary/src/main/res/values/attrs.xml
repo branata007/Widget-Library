@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleInitialWidget">
+        <attr name="size" format="enum">
+            <enum name="Small" value="0"/>
+            <enum name="Large" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

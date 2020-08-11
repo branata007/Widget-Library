@@ -1,0 +1,3 @@
+include ':WidgetLibrary'
+include ':app'
+rootProject.name = "WidgetExample"
