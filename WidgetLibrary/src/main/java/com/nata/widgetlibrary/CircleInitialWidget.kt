@@ -20,12 +20,12 @@ class CircleInitialWidget(context: Context, attrs: AttributeSet): ConstraintLayo
 
         LayoutInflater.from(context).inflate(R.layout.widget_circle_initial, this)
 
-        tv_initial.setTextSize(TypedValue.COMPLEX_UNIT_SP, if (size == 1) 24f else 12f)
+        this.tv_initial.setTextSize(TypedValue.COMPLEX_UNIT_SP, if (size == 1) 24f else 12f)
     }
 
     private fun getShapeBackground(): GradientDrawable? {
         return try {
-            iv_profile.background as GradientDrawable
+            this.iv_profile.background as GradientDrawable
         } catch (e:Exception) {
             null
         }
@@ -39,7 +39,7 @@ class CircleInitialWidget(context: Context, attrs: AttributeSet): ConstraintLayo
     }
 
     fun setInitial(text: String?) {
-        tv_initial.text = text.getInitial()
+        this.tv_initial.text = text.getInitial()
     }
 
     private fun String?.getInitial(): String {
