@@ -16,4 +16,14 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <com.nata.widgetlibrary.CircleInitialWidget
+        android:id="@+id/ciw_name_small"
+        android:layout_width="@dimen/circle_widget_small_size"
+        android:layout_height="@dimen/circle_widget_small_size"
+        android:layout_marginTop="16dp"
+        app:size="Small"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ciw_name_big" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

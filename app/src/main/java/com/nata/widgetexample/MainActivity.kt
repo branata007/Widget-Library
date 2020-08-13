@@ -10,5 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         ciw_name_big.setInitial("Clarissa Eliani Sutikno")
         ciw_name_big.setBackgroundColor("#ACD4EF")
+
+        ciw_name_small.setInitial("Branata Kurniawan")
     }
 }
