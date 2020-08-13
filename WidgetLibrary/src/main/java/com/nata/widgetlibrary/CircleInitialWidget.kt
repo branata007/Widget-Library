@@ -25,7 +25,7 @@ class CircleInitialWidget(context: Context, attrs: AttributeSet): ConstraintLayo
 
     private fun getShapeBackground(): GradientDrawable? {
         return try {
-            this.iv_profile.background as GradientDrawable
+            this.iv_profile.background.mutate() as GradientDrawable
         } catch (e:Exception) {
             null
         }
